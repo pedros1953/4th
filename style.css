@@ -1,0 +1,154 @@
+﻿#header {
+background:rgba(254, 220, 142, 0.7) no-repeat center;
+border: orange 2px solid;
+height: 80px;
+width: 978px;
+margin: auto;
+}
+
+html {
+background: url(images/oboi.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.navigation {
+list-style: none; /* прячем маркеры */
+width:190px;
+margin: auto;
+}
+
+.navigation li {
+float: left; /* выстраиваем элементы списка в один ряд */
+margin-right: 15px; /* делаем отступ чтобы пункты меню не сливались */
+}
+
+.navigation li a {
+display: block; /* меняем отображение на блок, чтобы иметь возможность задавать внутренние отступы */
+padding: 3px 5px;
+ background:rgba(238, 186, 115, 0.5); /* цвет кнопки */
+color: #8B4513;
+border: orange 1px solid; 
+border-radius: 5px; /* закругляем края кнопок */
+text-decoration:none; /* убираем подчёркивание */
+position: relative; /* для IE6, чтобы ссылка была кликабильной по всей своей площади */
+}
+
+.navigation li a:hover {
+background:rgba(247, 228, 202, 0.8); /* цвет кнопки при наведении */
+color: #FFA500; /* цвет текста при наведении */
+}
+
+body{
+  color:#D2691E;
+}
+
+table {
+ border: 0;
+ margin: 0 avto;
+ text-align: center;
+}
+
+div { 
+border-radius: 7px;
+}
+
+tr {
+background:rgba(254, 220, 142, 0.7);
+}
+
+p {
+ color:#8B4513;
+}
+
+#main { /* блоки 200Х300 */
+ background:rgba(238, 186, 115, 0.5);
+ border: orange 2px solid;
+ width: 225px;
+ height:331px;
+}
+
+#part { /* блоки 200Х200 для партнёров сайта */
+ background:rgba(238, 186, 115, 0.5);
+ border: orange 2px solid;
+ width: 225px;
+ height:225px;
+}
+
+#vitr { /* блок витр. ссылок */
+background:rgba(254, 220, 142, 0.4);
+border: orange 2px solid;
+width: 468px;
+height:150px;
+}
+
+#mein { /* блоки 468Х60 */
+ background:rgba(238, 186, 115, 0.5);
+ border: orange 2px solid;
+ width: 498px;
+ height:98px;
+}
+
+#wo { /* нижний блок */
+background:rgba(254, 220, 142, 0.7);
+ border: orange 2px solid;
+width: 978px; 
+height:141px;
+}
+
+#two { /* нижний блок в блоке */
+ background:rgba(238, 186, 115, 0.5);
+ border: orange 2px solid;
+ width: 972px;
+ height:116px;
+ text-align: center;
+}
+
+#raskr { /* блок раскрутки */
+width:730px;
+padding: 5px; /* задаём отступы */
+}
+
+#raskrut { /* блок в блоке раскрутки */
+ background:rgba(254, 220, 142, 0.5);
+ border: orange 2px solid;
+ width: 726px;
+ height: 100%;
+}
+
+td{
+ border: sandybrown 2px solid;
+ vertical-align: middle;
+}
+
+#black {
+ text-align: center;
+ margin: 0px 0;
+}
+
+#red {
+ color:#FF0000;
+ text-align: center;
+ margin: 0px 0;
+}
+
+#text {
+ padding:0px 5px 5px 5px;
+ color:#8B4513;
+ margin: 0px 0;
+ text-align: center;
+}
+
+#footer {
+width: 978px;
+height:90px;
+background:rgba(254, 220, 142, 0.7) no-repeat center;
+border: orange 2px solid;
+margin: auto;
+}
+
+
+
+
